@@ -17,7 +17,7 @@ li{
     width: 33.2%;
     border: solid 1px black;
     background-color: #2C262C;
-    float: left;
+    float:left;
 
 }
 
@@ -35,46 +35,9 @@ li a {
 main h1 {
 
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     background-color: #77160D;
     color: whitesmoke;
     padding : 20px;
 
 } 
-
-#sec1 {
-
-    margin: 0;
-    
-}
-#p1 {
-
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 20px;
-    color: white;
-
-}
-body {
-
-    background-color: #5A595A;
-    margin: 1%;
-
-}
-
-header {
-
-    margin:0;
-    width: 100%;
-}
-
-#p2 {
-
-    text-align: center;
-    font-size: 40px;
-    margin-top: 60px;
-    background-color:#77160D ;
-    padding: 20px;
-    color: whitesmoke;
-
-}
