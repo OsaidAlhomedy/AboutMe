@@ -1,0 +1,65 @@
+'use strict';
+
+
+alert('Answer the next 5 questions with yes/no or y/n ...');
+
+let ownerLocation = prompt('Do i live in Amman ?');
+ownerLocation = ownerLocation.toLowerCase();
+if( ownerLocation === 'yes' || ownerLocation === 'y') {
+
+  console.log("No I live in Ma'an");
+
+}else{
+
+  console.log("correct I live in Ma'an");
+
+}
+
+
+let ownerHobby = prompt('Do I like video games ?');
+ownerHobby = ownerHobby.toLowerCase();
+if( ownerHobby === 'yes' || ownerHobby === 'y') {
+
+  console.log('You bet, I love video games');
+
+}else{
+
+  console.log('Really, I thought you know me more 😭');
+
+}
+
+let ownerPet = prompt('Do I have any pets ?');
+ownerPet = ownerPet.toLowerCase();
+if( ownerPet === 'yes' || ownerPet === 'y') {
+
+  console.log('Correct, I have a cat names Blacky, I love this guy');
+
+}else{
+
+  console.log('Wrong answer, my cat Blacky would be mad at you &#58587 ');
+
+}
+
+let ownerCar = prompt('Do i have a car ?');
+ownerCar = ownerCar.toLowerCase();
+if( ownerCar === 'yes' || ownerCar === 'y') {
+
+  console.log('Correct, I have a Mitsubishi Galant 2.0 2006 car');
+
+}else{
+
+  console.log('Wrong answer, I have a Mitsubishi Galant 2.0 2006 car, VROOM VROOM my friend :D ');
+
+}
+
+let ownerEyes = prompt('Do I wear glasses ?');
+ownerEyes = ownerEyes.toLowerCase();
+if( ownerEyes === 'yes' || ownerEyes === 'y') {
+
+  console.log('Correct, I wear glasses because im short sight');
+
+}else{
+
+  console.log('Wrong answer, I wear glasses because im short sight');
+
+}
