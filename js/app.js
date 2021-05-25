@@ -100,7 +100,7 @@ for(let i = 1; i<= 4 ; i++){
   }
 
   if(i === 4){
-    alert(`You exhausted your attempts, the right answer is 7 ${rightNum}`);
+    alert(`You exhausted your attempts, the right answer is ${rightNum}`);
 
 }
 
