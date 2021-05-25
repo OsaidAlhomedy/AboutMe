@@ -102,7 +102,7 @@ for(let i = 1; i<= 4 ; i++){
   if(i === 4){
     alert(`You exhausted your attempts, the right answer is ${rightNum}`);
 
-}
+  }
 
 }
 
@@ -125,11 +125,6 @@ for(let i = 1; i<= 6 ; i++){
   }
 }
 
-let stringArr = ' ';
-for(let index2 = 0 ; index2 < colorArr.length; index2++){
-  stringArr = stringArr + colorArr[index2] + ', ' ;
-}
-
-alert(`The correct answers are ${stringArr}`);
+alert(`The correct answers are ${colorArr}`);
 alert(`your score is ${score}`);
 
