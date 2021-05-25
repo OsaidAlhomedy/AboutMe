@@ -73,5 +73,63 @@ if( ownerEyes === 'yes' || ownerEyes === 'y') {
 
 }
 
-let userName = localStorage.getItem("username")
-document.getElementById("h1").innerHTML = `You have finished the quiz ${userName}`
+let userName = localStorage.getItem('username');
+document.getElementById('h1').innerHTML = `You have finished the quiz ${userName}`;
+
+
+alert('Now we will play a guessing game');
+const rightNum = 7 ;
+let score = 0;
+
+
+
+
+for(let i = 1; i<= 4 ; i++){
+
+  let guessNum = prompt('Try to guess the number, HINT: the number is between 0-10');
+  guessNum = Number(guessNum);
+
+  if(guessNum === rightNum){
+    alert('You guessed right');
+    score++;
+    break;
+  }else if (guessNum < rightNum){
+    alert('You are lower than the number');
+  }else if (guessNum > rightNum){
+    alert('you are higher than the number');
+  }
+
+  if(i === 4){
+    alert(`You exhausted your attempts, the right answer is 7 ${rightNum}`);
+
+}
+
+}
+
+
+
+const colorArr = ['black','red','white'];
+
+guessGame:
+
+for(let i = 1; i<= 6 ; i++){
+
+  let guessColor = prompt('Try to guess my favorite color ?').toLowerCase();
+
+  for(let index = 0 ; index < colorArr.length; index++ ){
+    if(guessColor === colorArr[index]){
+      alert('You guessed right');
+      score++;
+      break guessGame;
+    }
+  }
+}
+
+let stringArr = ' ';
+for(let index2 = 0 ; index2 < colorArr.length; index2++){
+  stringArr = stringArr + colorArr[index2] + ', ' ;
+}
+
+alert(`The correct answers are ${stringArr}`);
+alert(`your score is ${score}`);
+

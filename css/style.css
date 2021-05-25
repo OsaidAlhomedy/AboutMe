@@ -10,7 +10,7 @@ ul {
 
 }
 
-li{
+ul li{
 
     display:inline-block;
     width: 33.2%;
@@ -43,7 +43,7 @@ main h1 {
 
 #sec1 {
 
-    margin: 0;
+    margin-top: ;
     
 }
 #p1 {
@@ -52,6 +52,7 @@ main h1 {
     text-justify: inter-word;
     font-size: 20px;
     color: white;
+    margin-top: 5%;
 
 }
 body {
@@ -75,5 +76,34 @@ header {
     background-color:#77160D ;
     padding: 20px;
     color: whitesmoke;
+
+}
+
+footer {
+
+    background-color: #77160D ;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+
+}
+
+main {
+
+    margin-bottom:20% ;
+
+}
+
+#sec2 {
+
+    margin-top: 20px;
+
+}
+
+ol li {
+
+    color: white;
+    margin-top: 5px;
 
 }
