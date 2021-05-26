@@ -1,5 +1,7 @@
 'use strict';
 
+// it is just a comment
+
 let score=0;
 
 function fivQues(){
