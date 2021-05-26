@@ -1,6 +1,8 @@
 'use strict';
 
+let score=0;
 
+function fivQues(){
 alert('Answer the next 5 questions with yes/no or y/n ...');
 
 let ownerLocation = prompt('Do i live in Amman ?');
@@ -75,14 +77,12 @@ if( ownerEyes === 'yes' || ownerEyes === 'y') {
 
 let userName = localStorage.getItem('username');
 document.getElementById('h1').innerHTML = `You have finished the quiz ${userName}`;
+}
 
 
+function numGussGame(){
 alert('Now we will play a guessing game');
 const rightNum = 7 ;
-let score = 0;
-
-
-
 
 for(let i = 1; i<= 4 ; i++){
 
@@ -105,8 +105,9 @@ for(let i = 1; i<= 4 ; i++){
   }
 
 }
+}
 
-
+function guessColor(){
 
 const colorArr = ['black','red','white'];
 
@@ -126,5 +127,9 @@ for(let i = 1; i<= 6 ; i++){
 }
 
 alert(`The correct answers are ${colorArr}`);
+}
+fivQues();
+numGussGame();
+guessColor();
 alert(`your score is ${score}`);
 
