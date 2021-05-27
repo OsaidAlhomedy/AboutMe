@@ -1,3 +1,9 @@
+body {
+
+    margin:0px;
+    padding: 0;
+
+}
 ul {
 
     
@@ -38,27 +44,31 @@ main h1 {
     background-color: #77160D;
     color: whitesmoke;
     padding : 20px;
+    
 
 } 
 
 #sec1 {
 
-    margin-top: ;
+    margin-top: 10px ;
     
 }
 #p1 {
 
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
     font-size: 20px;
     color: white;
-    margin-top: 5%;
 
 }
 body {
 
     background-color: #5A595A;
-    margin: 1%;
+    margin: 0%;
+    
 
 }
 
